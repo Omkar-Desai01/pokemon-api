@@ -22,9 +22,8 @@ export default function Card(props) {
       {data && (
         <div className="card">
           <img className="img" src={url} alt="pokemon" />
-          <div>
-            <h2>{data.name}</h2>
-          </div>
+
+          <h2>{data.name}</h2>
         </div>
       )}
     </>
