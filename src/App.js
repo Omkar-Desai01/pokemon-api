@@ -1,7 +1,11 @@
+import "./app.css";
+
+import Head from "./components/HeadSpace";
+
 export default function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Head></Head>
     </>
   );
 }
